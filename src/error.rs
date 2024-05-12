@@ -1,3 +1,5 @@
+// todo: Rework and document
+
 #[derive(thiserror::Error, Debug)]
 pub enum FcmError {
     #[error("Issue with request to Google: {0}")]
