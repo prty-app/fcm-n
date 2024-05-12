@@ -2,6 +2,13 @@
 name = "fcm-n"
 version = "0.1.0"
 edition = "2021"
+authors = ["FssAy"]
+description = "Crate to send notifications via FCM API."
+license = "MIT"
+repository = "https://github.com/prty-app/fcm-n"
+readme = "README.md"
+keywords = ["fcm", "firebase", "api", "notification"]
+categories = ["api-bindings", "authentication"]
 
 [dependencies]
 serde = { version = "1.0", features = ["derive"] }
